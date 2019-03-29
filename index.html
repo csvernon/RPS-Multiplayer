@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ROSHAMBO</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>It's ROSHAMBO BABY!</h1>
+			<h2>Enter your Username to Start</h2>
+		</div>
+		<div class="userName">
+			<form id="name-form">
+				<input type="text" id="userName" placeholder="Username">
+				<input id="addUser" type="submit" value="Submit">
+			</form>
+		</div>
+		<div class="game">
+			<div class="row">
+				<div class="col-4">
+					<div class="game userPanel" id="userPanel1">
+						<div class="panelName">
+							<h3 id="user1"></h3>
+						</div>
+						<div class="gameOption">
+							<div>Rock</div>
+						</div>
+						<div class="gameOption">
+							<div>Paper</div>
+						</div>
+						<div class="gameOption">
+							<div>Scissors</div>
+						</div>
+						<div class="userScore text-center">
+							<div class="score" id="user1score"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="game gamePanel">
+						<h3 class="title" id="wait"></h3>
+						<h3 class="title" id="result">Rock-Paper-Scissors</h3>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="game userPanel" id="userPanel2">
+						<div class="panelName">
+							<h3 id="user2"></h3>
+						</div>
+						<div class="gameOption">
+							<div>Rock</div>
+						</div>
+						<div class="gameOption">
+							<div>Paper</div>
+						</div>
+						<div class="gameOption">
+							<div>Scissors</div>
+						</div>
+						<div class="userScore">
+							<div class="score" id="user2score"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-8">
+				<div id="inputBox"></div>
+			</div>
+			<div class="col-4">
+				<div class="input">
+					<div class="inputLabel">Chat here</div>
+					<div class="inputPanel">
+						<form id="inputForm">
+							<textarea type="text" id="input"></textarea>
+							<input id="inputButton" type="submit" value="Send">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./assets/main.js"></script>
+</body>
+
+</html>

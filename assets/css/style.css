@@ -1,0 +1,200 @@
+body {
+	height: 100%;
+	background-image: url("./texture_gradient_spots_130030_1920x1080.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white; 
+}
+
+.container { 
+	width: 80% 
+}
+
+.jumbotron {
+	background-color: transparent;
+	margin-top: 0px;
+	width: 100%;
+	padding-bottom: 0px;
+	padding-top: 0px;
+  text-align: center;
+}
+
+h1 {
+	font-size: 7em;
+	color: crimson;
+	text-shadow: -8px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+	font-size: 3em;
+	color: white;
+	text-shadow: -6px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+	font-size: 2em;
+	color: white;
+}
+
+.userName {
+	margin-bottom: 20px;
+	background-color: transparent;
+}
+
+#userName {
+  width: 200px;
+  height: 30px;
+  color: black;
+  text-align: center;
+  margin-left: 30%;
+  background-color: white;
+}
+
+#addUser {
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 30px;
+	padding: 5px 45px;
+	color: black;
+	font-weight: normal;
+}
+
+.game {
+	background-color: transparent;
+	border: none;
+}
+
+.title {
+	font-size: 4em;
+	color: white;
+	text-shadow: -6px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+text-align: center;
+}
+
+.userPanel {
+	height: 280px;
+	background-color: transparent;
+	border: 3px solid red;
+}
+
+.userTurn {
+	border: 5px solid green;
+}
+
+.panelName {
+	height: 70px;
+	background-color: transparent;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.userPanel .gameOption {
+	height: 50px;
+	background-color: teal;
+	text-align: center;
+	font-size: 1.5em;
+	color: crimson;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	border: 2px solid orange;
+}
+
+.gamePanel {
+	height: 240px;
+	background-color: transparent;
+}
+
+.gameOption:hover {
+	background-color: crimson;
+}
+
+.gameOption:active {
+  background-color:orange;
+}
+
+.userScore {
+	height: 60px;
+	background-color: transparent;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.5em;
+	color: white;
+}
+
+#wait {
+	font-size: 1.5em;
+	color: crimson;
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+#inputBox {
+	padding-top: 20px;
+	height: 150px;
+	width: 100%;
+	overflow: auto;
+	text-align: left;
+  	background-color: transparent;
+	font-size: 1em;
+	color: white;
+}
+
+.input {
+	height: 150px;
+  	border-radius: 10px;
+		background-color: transparent;
+		padding-right: 0px;
+}
+
+#inputForm {
+width: 24em;
+}
+
+.inputLabel {
+	padding-top: 15px;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#inputButton {
+	width: 30%;
+	height: 90px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 10px;
+	color: white;
+	font-weight: normal;
+	position: relative;
+	top: -40px;
+}
+
+#input {
+	width: 60%;
+	height: 90px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	background-color: white;
+}
+
+.chat {
+	color: white;
+}
+
+.chat2 {
+	color: yellow;
+}
+
+.disconnect {
+	color: orange;
+	font-style: italic;
+}
+
+.joined {
+	color: green;
+}
